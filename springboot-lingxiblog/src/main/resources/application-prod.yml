@@ -1,0 +1,28 @@
+#生产环境(即投入使用环境)
+
+#指定生产环境端口
+server:
+  port: 8081
+
+spring:
+
+
+#    数据库配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springboot-blog?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT
+    username: mysql
+    password: 15827318595
+#    JPA配置
+  jpa:
+    hibernate:
+#    生产环境这里就不在需要变更表结构了，设置为none
+      ddl-auto: none
+    show-sql: true
+logging:
+  level:
+    root: warn
+    com.lyj.blog: info
+  file: log/blog-pro.log
+
+

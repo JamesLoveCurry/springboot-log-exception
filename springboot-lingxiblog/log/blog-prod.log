@@ -1,0 +1,6 @@
+2020-03-16 21:59:48.855  INFO 6768 --- [restartedMain] com.lyj.blog.BlogApplication             : Starting BlogApplication on DESKTOP-ES8TTIK with PID 6768 (D:\factory-works\factory-workspace\springboot-lingxiblog\target\classes started by 96971 in D:\factory-works\factory-workspace\springboot-lingxiblog)
+2020-03-16 21:59:48.860  INFO 6768 --- [restartedMain] com.lyj.blog.BlogApplication             : The following profiles are active: prod
+2020-03-16 21:59:50.136  WARN 6768 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lyj.blog]' package. Please check your configuration.
+2020-03-16 21:59:52.680  WARN 6768 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-16 21:59:53.089  WARN 6768 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-03-16 21:59:53.362  INFO 6768 --- [restartedMain] com.lyj.blog.BlogApplication             : Started BlogApplication in 5.952 seconds (JVM running for 13.344)

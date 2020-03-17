@@ -1,0 +1,11 @@
+#公共全局配置文件
+spring:
+  thymeleaf:
+    mode: HTML5
+#    避免页面缓存重启服务器，默认是true
+    cache: false
+#    指定激活开发环境还是生产环境，只需要-后面的名字
+  profiles:
+    active: dev
+
+
